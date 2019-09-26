@@ -30,3 +30,37 @@ Creating an instance of several derived classes.
 Creating an instance of several families of classes.
 
 ![Abstract Factory Method](/assets/abstract-factory-diagram.png)
+
+### Singleton
+
+A structure enforcing a class of which only a single instance can exist.
+
+![Singleton Method](/assets/singleton-diagram.png)
+
+## Structural Patterns
+
+### Decorator
+
+Adding responsibilities to objects dynamically and layering functionality through "wrapping".
+
+![Decorator Method](/assets/decorator-diagram.png)
+
+## Behavioral Patterns
+
+### Iterator
+
+Sequentially accessing the elements of a collection and making distinction between different protocols based on different collections.
+
+![Decorator Method](/assets/iterator-diagram.png)
+
+### Observer
+
+Watching and notifying change to a number of classes.
+
+![Observer Method](/assets/observer-diagram.png)
+
+### Unit of Work
+
+TBD
+
+![Unit of Work Method](/assets/unit-of-work-diagram.png)
