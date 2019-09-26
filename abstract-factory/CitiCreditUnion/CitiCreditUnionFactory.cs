@@ -28,7 +28,7 @@ namespace CitiCreditUnion
 
 
     // Concrete Factory 1
-        public class CitiCreditUnionFactory : ICreditUnionFactory
+    public class CitiCreditUnionFactory : ICreditUnionFactory
     {
         public override ILoanAccount CreateLoanAccount()
         {
@@ -42,5 +42,4 @@ namespace CitiCreditUnion
             return obj;
         }
     }
-
 }

@@ -12,15 +12,16 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            List<string> accntNumbers = new List<string> {
-                                        "CITI-456",
-                                        "NATIONAL-987",
-                                        "CHASE-222" };
+            List<string> accntNumbers = new List<string>
+            {
+                "CITI-456",
+                "NATIONAL-987",
+                "CHASE-222"
+            };
             for (int i = 0; i < accntNumbers.Count; i++)
             {
                 ICreditUnionFactory anAbstractFactory =
-                    CreditUnionFactoryProvider.
-                    GetCreditUnionFactory(accntNumbers[i]);
+                    CreditUnionFactoryProvider.GetCreditUnionFactory(accntNumbers[i]);
                 if (anAbstractFactory == null)
                 {
                     Console.WriteLine("Sorry. This credit union w/ account number" +
@@ -32,8 +33,8 @@ namespace AbstractFactory
                     ISavingsAccount savings = anAbstractFactory.CreateSavingsAccount();
                 }
             }
-            Console.ReadLine();
 
+            Console.ReadLine();
         }
     }
 }

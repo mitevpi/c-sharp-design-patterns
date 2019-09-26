@@ -14,8 +14,12 @@ namespace Interfaces
     }
 
     // Abstract Product A
-    public interface ILoanAccount { }
+    public interface ILoanAccount
+    {
+    }
 
     // Abstract Product B
-    public interface ISavingsAccount { }
+    public interface ISavingsAccount
+    {
+    }
 }
